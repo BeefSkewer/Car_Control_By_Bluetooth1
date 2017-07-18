@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.car_control_by_bluetooth.MainActivity">
+
+    <TextView
+        android:id="@+id/textX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/textY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:textSize="15sp"
+        android:layout_below="@+id/textX"
+        android:layout_alignLeft="@+id/textX" />
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:textSize="15sp"
+        android:layout_below="@+id/textY"
+        android:layout_alignLeft="@+id/textY" />
+
+
+    <TextView
+        android:id="@+id/textUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait_up"
+        android:textSize="15sp"
+        android:layout_below="@+id/textZ"
+        android:layout_alignLeft="@+id/textZ" />
+    <TextView
+        android:id="@+id/textLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait_left"
+        android:textSize="15sp"
+        android:layout_below="@+id/textUp"
+        android:layout_alignLeft="@+id/textUp" />
+    <TextView
+        android:id="@+id/textRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait_right"
+        android:textSize="15sp"
+        android:layout_below="@+id/textLeft"
+        android:layout_alignLeft="@+id/textLeft" />
+    <TextView
+        android:id="@+id/textDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait_down"
+        android:textSize="15sp"
+        android:layout_below="@+id/textRight"
+        android:layout_alignLeft="@+id/textRight" />
+    <TextView
+        android:id="@+id/textStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wait_stop"
+        android:textSize="15sp"
+        android:layout_below="@+id/textDown"
+        android:layout_alignLeft="@+id/textDown" />
+    <TextView
+        android:id="@+id/ress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:layout_below="@+id/textStop"
+        android:layout_alignLeft="@+id/textDown" />
+</RelativeLayout>
